@@ -17,7 +17,7 @@ const Dashboard = () => {
     console.log(messages, 'messages')
 
     useEffect(() => {
-        setSocket(io('https://backend-chat-8fl0.onrender.com'))
+        setSocket(io('https://backend-chat-8fl0.onrender.com:8080'))
     }, [])
 
     useEffect(() => {
